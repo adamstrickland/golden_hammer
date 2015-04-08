@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require File.expand_path('../../lib/golden_hammer.rb', __FILE__)
+
+GoldenHammer::Cli.start(ARGV)
